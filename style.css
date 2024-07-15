@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: 2C4251 ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.checkbox-group {
+    margin: 10px 0;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+button:enabled {
+    cursor: pointer;
+    background-color: #0056b3;
+}
+
+.password-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.password-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.tooltip {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #000;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    visibility: hidden;
+}
+
+.password-container:hover .tooltip {
+    visibility: visible;
+}
+
+#password{
+    width: 95%;
+}
