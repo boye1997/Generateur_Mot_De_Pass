@@ -59,4 +59,4 @@ passwordField.addEventListener('click', () => {
     }
 });
 
-updateGenerateButton(); // Initial call to set the button state correctly
+updateGenerateButton();
